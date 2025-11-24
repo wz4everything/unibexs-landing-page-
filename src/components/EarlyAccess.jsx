@@ -72,9 +72,9 @@ const EarlyAccess = () => {
                         viewport={{ once: true }}
                         style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(3, 1fr)',
-                            gap: '40px 24px', /* Increased vertical gap for better separation */
-                            maxWidth: '1000px', /* Slightly wider to accommodate content */
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', /* Responsive grid */
+                            gap: '32px',
+                            maxWidth: '1000px',
                             margin: '0 auto 48px',
                             textAlign: 'left'
                         }}

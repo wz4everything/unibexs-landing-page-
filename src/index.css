@@ -164,6 +164,39 @@ p {
   }
 }
 
+/* Ultra Mobile (Small Screens) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 32px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .btn {
+    width: 100%;
+    /* Full width buttons on mobile */
+    padding: 14px 20px;
+  }
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {

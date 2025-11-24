@@ -62,7 +62,7 @@ const Hero = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                    style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}
+                    style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}
                 >
                     <a href="#early" className="btn btn-primary" style={{ padding: '16px 32px', fontSize: '16px' }}>
                         Become a Partner
